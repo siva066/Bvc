@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BVC Group Academics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>BVC Group Academics</h1>
+        <nav>
+            <button id="menu-btn">Menu</button>
+        </nav>
+    </header>
+
+    <!-- Sidebar Menu -->
+    <aside id="menu" class="hidden">
+        <ul>
+            <li><a href="#faculty">Faculty Details</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#previous-papers">Previous Semester Papers</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Welcome Section -->
+        <section>
+            <h2>Welcome to BVC Group Academics</h2>
+            <p>Your hub for faculty information, academic resources, and feedback.</p>
+        </section>
+
+        <!-- Faculty Section -->
+        <section id="faculty">
+            <h2>Faculty Details</h2>
+            <p>Details of all faculties will be listed here.</p>
+        </section>
+
+        <!-- Feedback Section -->
+        <section id="feedback">
+            <h2>Feedback</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Previous Papers Section -->
+        <section id="previous-papers">
+            <h2>Previous Semester Papers</h2>
+            <div>
+                <h3>Departments</h3>
+                <ul>
+                    <li><a href="#">EEE</a></li>
+                    <li><a href="#">CSE</a></li>
+                    <li><a href="#">AIML</a></li>
+                    <li><a href="#">CAD</a></li>
+                    <li><a href="#">Civil</a></li>
+                    <li><a href="#">ECE</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@bvcgroup.com</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
